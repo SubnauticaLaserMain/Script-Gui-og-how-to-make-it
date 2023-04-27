@@ -263,4 +263,57 @@ MicSection:AddButton({
         loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"),true)()
     end
 })
+elseif game.PlaceId == 6872265039 or game.PlaceId == 8444591321 then
+local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+local Wait = library.subs.Wait
+
+local JuliansWorld = library:CreateWindow({
+Name = "Julians Exploit -- BedWars 🔥 [SHIELDER REWORK!]",
+Themeable = {
+Info = "I made this own my own but i got help by Pepise"
+}
+})
+local MainTab = JuliansWorld:CreateTab({
+Name = "Main"
+})
+
+local ScriptSection = MainTab:CreateSection({
+Name = "Scripts"
+})
+
+local BasicSection = MainTab:CreateSection({
+    Name = "Basic"
+})
+
+ScriptSection:AddButton({
+    Name = 'Vape V4',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    end
+})
+
+local MicSection = MainTab:CreateSection({
+Name = "Mic"
+})
+
+MicSection:AddButton({
+    Name = 'Infinite Yeld',
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end
+})
+
+MicSection:AddButton({
+    Name = 'Dark Dex V3',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    end
+})
+
+MicSection:AddButton({
+    Name = 'Remote Spy',
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"),true)()
+    end
+})
 end
