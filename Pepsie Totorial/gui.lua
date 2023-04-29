@@ -13,6 +13,17 @@ local MainTab = JuliansWorld:CreateTab({
 Name = "Main"
 })
 
+local MainSection = MainTab:CreateSection({
+	Name = "Main"
+})
+
+MainSection:AddButton({
+	Name = 'My Speed & Jump Script Gui!',
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/SubnauticaLaserMain/Script-Gui-og-how-to-make-it/main/my-Settings/WalkSpeed-JumpPower--RobloxPiggyPrivate.lua",true))()
+	end
+})
+
 local ScriptSection = MainTab:CreateSection({
 Name = "Scripts"
 })
@@ -217,14 +228,16 @@ BasicSection:AddButton({
 ScriptSection:AddButton({
     Name = 'MSDOORS',
     Callback = function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+        --loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+		print("Patched")
     end
 })
 
 ScriptSection:AddButton({
     Name = 'Entity Spawner',
     Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+        --loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+		print("Problemtly Patched")
     end
 })
 
@@ -235,7 +248,8 @@ local MobileScriptSection = MainTab:CreateSection({
 MobileScriptSection:AddButton({
     Name = 'Nerd Hub V3',
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
+        --loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
+		print("Patched")
     end
 })
 
@@ -290,6 +304,67 @@ ScriptSection:AddButton({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
     end
+})
+
+local MicSection = MainTab:CreateSection({
+Name = "Mic"
+})
+
+MicSection:AddButton({
+    Name = 'Infinite Yeld',
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end
+})
+
+MicSection:AddButton({
+    Name = 'Dark Dex V3',
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+    end
+})
+
+MicSection:AddButton({
+    Name = 'Remote Spy',
+    Callback = function()
+        loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"),true)()
+    end
+})
+elseif game.PlaceId == 7991339063 or game.PlaceId == 8888615802 then
+local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)()
+local Wait = library.subs.Wait
+
+local JuliansWorld = library:CreateWindow({
+Name = "Julians Exploit -- Rainbow Friends / Private",
+Themeable = {
+Info = "I made this own my own but i got help by Pepise"
+}
+})
+
+local MainTab = JuliansWorld:CreateTab({
+Name = "Main"
+})
+
+local MainSection = MainTab:CreateSection({
+	Name = "Main"
+})
+
+MainSection:AddSlider({
+	Name = 'WalkSpeed',
+	Flag = 'CharacterFlag',
+	Value = 16,
+	Min = 16,
+	Max = 100,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end
+})
+
+MainSection:AddButton({
+	Name = 'Reset WalkSpeed',
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+	end
 })
 
 local MicSection = MainTab:CreateSection({
