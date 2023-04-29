@@ -269,9 +269,9 @@ local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)
 local Wait = library.subs.Wait
 
 local JuliansWorld = library:CreateWindow({
-Name = "Julians Exploit -- DOORS 👁️",
-Themeable = {
-Info = "I made this own my own but i got help by Pepise"
+Name               = "Julians Exploit -- DOORS 👁️ / private",
+Themeable          = {
+Info               = "I made this own my own but i got help by Pepise"
 }
 })
 
