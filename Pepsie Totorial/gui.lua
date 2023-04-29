@@ -17,10 +17,33 @@ local MainSection = MainTab:CreateSection({
 	Name = "Main"
 })
 
+MainSection:AddSlider({
+	Name = 'WalkSpeed',
+	Flag = 'CharacterFlag',
+	Value = 16,
+	Min = 16,
+	Max = 100,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end
+})
+
+MainSection:AddSlider({
+	Name = 'JumpPower',
+	Flag = 'CharacterFlag',
+	Value = 50,
+	Min = 50,
+	Max = 250,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end
+})
+
 MainSection:AddButton({
-	Name = 'My Speed & Jump Script Gui!',
+	Name = 'Reset Walk/Jump',
 	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/SubnauticaLaserMain/Script-Gui-og-how-to-make-it/main/my-Settings/WalkSpeed-JumpPower--RobloxPiggyPrivate.lua",true))()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
 	end
 })
 
@@ -80,6 +103,36 @@ Info = "I made this own my own but i got help by Pepise"
 
 local MainTab = JuliansWorld:CreateTab({
 Name = "Main"
+})
+
+MainSection:AddSlider({
+	Name = 'WalkSpeed',
+	Flag = 'CharacterFlag',
+	Value = 16,
+	Min = 16,
+	Max = 100,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end
+})
+
+MainSection:AddSlider({
+	Name = 'JumpPower',
+	Flag = 'CharacterFlag',
+	Value = 50,
+	Min = 50,
+	Max = 250,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end
+})
+
+MainSection:AddButton({
+	Name = 'Reset Walk/Jump',
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -146,6 +199,36 @@ local MainTab = JuliansWorld:CreateTab({
 Name = "Main"
 })
 
+MainSection:AddSlider({
+	Name = 'WalkSpeed',
+	Flag = 'CharacterFlag',
+	Value = 16,
+	Min = 16,
+	Max = 100,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end
+})
+
+MainSection:AddSlider({
+	Name = 'JumpPower',
+	Flag = 'CharacterFlag',
+	Value = 50,
+	Min = 50,
+	Max = 250,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end
+})
+
+MainSection:AddButton({
+	Name = 'Reset Walk/Jump',
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end
+})
+
 local ScriptSection = MainTab:CreateSection({
 Name = "Scripts"
 })
@@ -194,6 +277,36 @@ Info = "I made this own my own but i got help by Pepise"
 
 local MainTab = JuliansWorld:CreateTab({
 Name = "Main"
+})
+
+MainSection:AddSlider({
+	Name = 'WalkSpeed',
+	Flag = 'CharacterFlag',
+	Value = 16,
+	Min = 16,
+	Max = 100,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end
+})
+
+MainSection:AddSlider({
+	Name = 'JumpPower',
+	Flag = 'CharacterFlag',
+	Value = 50,
+	Min = 50,
+	Max = 250,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end
+})
+
+MainSection:AddButton({
+	Name = 'Reset Walk/Jump',
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -289,6 +402,35 @@ Info = "I made this own my own but i got help by Pepise"
 })
 local MainTab = JuliansWorld:CreateTab({
 Name = "Main"
+})
+MainSection:AddSlider({
+	Name = 'WalkSpeed',
+	Flag = 'CharacterFlag',
+	Value = 16,
+	Min = 16,
+	Max = 100,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+	end
+})
+
+MainSection:AddSlider({
+	Name = 'JumpPower',
+	Flag = 'CharacterFlag',
+	Value = 50,
+	Min = 50,
+	Max = 250,
+	Callback = function(s)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+	end
+})
+
+MainSection:AddButton({
+	Name = 'Reset Walk/Jump',
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+	end
 })
 
 local ScriptSection = MainTab:CreateSection({
