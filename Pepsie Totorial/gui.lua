@@ -3,9 +3,9 @@ local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)
 local Wait = library.subs.Wait
 
 local JuliansWorld = library:CreateWindow({
-Name = "Julians Exploit -- Piggy",
-Themeable = {
-Info = "I made this own my own but i got help by Pepise"
+Name               = "Julians Exploit -- Piggy / Private",
+Themeable          = {
+Info               = "I made this own my own but i got help by Pepise"
 }
 })
 
@@ -14,37 +14,37 @@ Name = "Main"
 })
 
 local MainSection = MainTab:CreateSection({
-	Name = "Main"
+    Name = "Main"
 })
 
 MainSection:AddSlider({
-	Name = 'WalkSpeed',
-	Flag = 'CharacterFlag',
-	Value = 16,
-	Min = 16,
-	Max = 100,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-	end
+    Name = 'WalkSpeed',
+    Flag = 'CharacterFlag',
+    Value = 16,
+    Min = 16,
+    Max = 100,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end
 })
 
 MainSection:AddSlider({
-	Name = 'JumpPower',
-	Flag = 'CharacterFlag',
-	Value = 50,
-	Min = 50,
-	Max = 250,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
-	end
+    Name = 'JumpPower',
+    Flag = 'CharacterFlag',
+    Value = 50,
+    Min = 50,
+    Max = 250,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end
 })
 
 MainSection:AddButton({
-	Name = 'Reset Walk/Jump',
-	Callback = function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	end
+    Name = 'Reset Walk/Jump',
+    Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -95,9 +95,9 @@ local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)
 local Wait = library.subs.Wait
 
 local JuliansWorld = library:CreateWindow({
-Name = "Julians Exploit -- Be A Parkour Ninja",
-Themeable = {
-Info = "I made this own my own but i got help by Pepise"
+Name               = "Julians Exploit -- Be A Parkour Ninja / Private",
+Themeable          = {
+Info               = "I made this own my own but i got help by Pepise"
 }
 })
 
@@ -106,33 +106,33 @@ Name = "Main"
 })
 
 MainSection:AddSlider({
-	Name = 'WalkSpeed',
-	Flag = 'CharacterFlag',
-	Value = 16,
-	Min = 16,
-	Max = 100,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-	end
+    Name = 'WalkSpeed',
+    Flag = 'CharacterFlag',
+    Value = 16,
+    Min = 16,
+    Max = 100,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end
 })
 
 MainSection:AddSlider({
-	Name = 'JumpPower',
-	Flag = 'CharacterFlag',
-	Value = 50,
-	Min = 50,
-	Max = 250,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
-	end
+    Name = 'JumpPower',
+    Flag = 'CharacterFlag',
+    Value = 50,
+    Min = 50,
+    Max = 250,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end
 })
 
 MainSection:AddButton({
-	Name = 'Reset Walk/Jump',
-	Callback = function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	end
+    Name = 'Reset Walk/Jump',
+    Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -189,9 +189,9 @@ local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)
 local Wait = library.subs.Wait
 
 local JuliansWorld = library:CreateWindow({
-Name = "Julians Exploit -- Build and Survive!",
-Themeable = {
-Info = "I made this own my own but i got help by Pepise"
+Name               = "Julians Exploit -- Build and Survive! Pribate",
+Themeable          = {
+Info               = "I made this own my own but i got help by Pepise"
 }
 })
 
@@ -200,33 +200,33 @@ Name = "Main"
 })
 
 MainSection:AddSlider({
-	Name = 'WalkSpeed',
-	Flag = 'CharacterFlag',
-	Value = 16,
-	Min = 16,
-	Max = 100,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-	end
+    Name = 'WalkSpeed',
+    Flag = 'CharacterFlag',
+    Value = 16,
+    Min = 16,
+    Max = 100,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end
 })
 
 MainSection:AddSlider({
-	Name = 'JumpPower',
-	Flag = 'CharacterFlag',
-	Value = 50,
-	Min = 50,
-	Max = 250,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
-	end
+    Name = 'JumpPower',
+    Flag = 'CharacterFlag',
+    Value = 50,
+    Min = 50,
+    Max = 250,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end
 })
 
 MainSection:AddButton({
-	Name = 'Reset Walk/Jump',
-	Callback = function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	end
+    Name = 'Reset Walk/Jump',
+    Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -280,33 +280,33 @@ Name = "Main"
 })
 
 MainSection:AddSlider({
-	Name = 'WalkSpeed',
-	Flag = 'CharacterFlag',
-	Value = 16,
-	Min = 16,
-	Max = 100,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-	end
+    Name = 'WalkSpeed',
+    Flag = 'CharacterFlag',
+    Value = 16,
+    Min = 16,
+    Max = 100,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end
 })
 
 MainSection:AddSlider({
-	Name = 'JumpPower',
-	Flag = 'CharacterFlag',
-	Value = 50,
-	Min = 50,
-	Max = 250,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
-	end
+    Name = 'JumpPower',
+    Flag = 'CharacterFlag',
+    Value = 50,
+    Min = 50,
+    Max = 250,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end
 })
 
 MainSection:AddButton({
-	Name = 'Reset Walk/Jump',
-	Callback = function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	end
+    Name = 'Reset Walk/Jump',
+    Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -342,7 +342,7 @@ ScriptSection:AddButton({
     Name = 'MSDOORS',
     Callback = function()
         --loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
-		print("Patched")
+        print("Patched")
     end
 })
 
@@ -350,7 +350,7 @@ ScriptSection:AddButton({
     Name = 'Entity Spawner',
     Callback = function()
         --loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
-		print("Problemtly Patched")
+        print("Problemtly Patched")
     end
 })
 
@@ -362,7 +362,7 @@ MobileScriptSection:AddButton({
     Name = 'Nerd Hub V3',
     Callback = function()
         --loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/DoorsV3_ByNerd.lua"))()
-		print("Patched")
+        print("Patched")
     end
 })
 
@@ -395,42 +395,42 @@ local library = loadstring(game:GetObjects("rbxassetid://7657867786")[1].Source)
 local Wait = library.subs.Wait
 
 local JuliansWorld = library:CreateWindow({
-Name = "Julians Exploit -- BedWars 🔥 [SHIELDER REWORK!]",
-Themeable = {
-Info = "I made this own my own but i got help by Pepise"
+Name               = "Julians Exploit -- BedWars 🔥 [SHIELDER REWORK!] / private",
+Themeable          = {
+Info               = "I made this own my own but i got help by Pepise"
 }
 })
 local MainTab = JuliansWorld:CreateTab({
 Name = "Main"
 })
 MainSection:AddSlider({
-	Name = 'WalkSpeed',
-	Flag = 'CharacterFlag',
-	Value = 16,
-	Min = 16,
-	Max = 100,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-	end
+    Name = 'WalkSpeed',
+    Flag = 'CharacterFlag',
+    Value = 16,
+    Min = 16,
+    Max = 100,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end
 })
 
 MainSection:AddSlider({
-	Name = 'JumpPower',
-	Flag = 'CharacterFlag',
-	Value = 50,
-	Min = 50,
-	Max = 250,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
-	end
+    Name = 'JumpPower',
+    Flag = 'CharacterFlag',
+    Value = 50,
+    Min = 50,
+    Max = 250,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end
 })
 
 MainSection:AddButton({
-	Name = 'Reset Walk/Jump',
-	Callback = function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-		game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
-	end
+    Name = 'Reset Walk/Jump',
+    Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+    end
 })
 
 local ScriptSection = MainTab:CreateSection({
@@ -488,25 +488,25 @@ Name = "Main"
 })
 
 local MainSection = MainTab:CreateSection({
-	Name = "Main"
+    Name = "Main"
 })
 
 MainSection:AddSlider({
-	Name = 'WalkSpeed',
-	Flag = 'CharacterFlag',
-	Value = 16,
-	Min = 16,
-	Max = 100,
-	Callback = function(s)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-	end
+    Name = 'WalkSpeed',
+    Flag = 'CharacterFlag',
+    Value = 16,
+    Min = 16,
+    Max = 100,
+    Callback = function(s)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end
 })
 
 MainSection:AddButton({
-	Name = 'Reset WalkSpeed',
-	Callback = function()
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
-	end
+    Name = 'Reset WalkSpeed',
+    Callback = function()
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end
 })
 
 local MicSection = MainTab:CreateSection({
